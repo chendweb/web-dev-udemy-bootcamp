@@ -1,0 +1,144 @@
+/****************************TAG SELECTORS********************************/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 80px auto 0;
+    line-height: 2;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+hr {
+    width: 5%;
+    border-width: 8px;
+    border-color: #FFE69A;
+    border-style: dotted none none;
+    margin: 100px auto;
+}
+
+p {
+    line-height: 2;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited {
+    color: #000;
+}
+
+a:hover {
+    color: #92B4EC;
+    text-decoration: underline;
+}
+
+/****************************CLASS SELECTORS********************************/
+
+.top-container {
+    position: relative;
+    padding-top: 80px;
+}
+
+.middle-container {
+    padding-top: 80px;
+}
+
+.bottom-container {
+    padding: 40px 0 60px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.web-dev {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.ux-design {
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+.chen {
+    color: #92B4EC;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 80px auto;
+    text-align: left;
+}
+
+.profile-photo {
+    width: 160px;
+}
+
+.profile-text {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.contact-h3 {
+    margin: 40px 0;
+}
+
+.contact-text {
+    margin: 40px 0 50px;
+}
+
+.btn {
+    font-family: Arial;
+    color: #ffffff;
+    font-size: rem;
+    background: #282f36;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+  }
+  
+.btn:hover {
+    background: #92B4EC;
+    border: 2px solid #000;
+    color: #000;
+    text-decoration: none;
+}
+
+.contact-me {
+    margin-bottom: 80px;
+}
+
+.footer-credit {
+    color: #bebebe;
+    font-size: 0.875rem;
+    padding-top: 30px;
+}
+
+.footer-link {
+    font-size: 1.25rem;
+    margin: 0 20px;
+}
+
+.first-website {
+    text-decoration: underline;
+}
